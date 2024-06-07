@@ -2,7 +2,7 @@ package hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.Builder.builder;
 
 /**
  * 빌더패턴 - 점층적 생성자 패턴의 안전성과 자바빈즈의 가독성
- * 매개변수가 만다면 빌더패턴을 고려하자
+ * 매개변수가 많다면 빌더패턴을 고려하자
  */
 public class NutritionFacts {
     private final int servingSize; // (ml, 1회 제공량) 필수
@@ -68,10 +68,6 @@ public class NutritionFacts {
 
         public NutritionFacts build() {
             return new NutritionFacts(this.servingSize, this.servings, this.calories, this.fat, this.sodium, this.carbohydrate);
-        }
-
-        public String toString() {
-            return "NutritionFacts.NutritionFactsBuilder(servingSize=" + this.servingSize + ", servings=" + this.servings + ", calories=" + this.calories + ", fat=" + this.fat + ", sodium=" + this.sodium + ", carbohydrate=" + this.carbohydrate + ")";
         }
     }
 }
