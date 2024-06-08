@@ -7,5 +7,5 @@ package hello.EffectiveJavaStudy.singleton;
 public enum EnumSingleton {
     INSTANCE;
 
-    public void leaveTheBuilding() {...}
+    public void leaveTheBuilding() {}
 }

@@ -7,11 +7,11 @@ package hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.singleton;
  * - 정적 팩토리 메서드 참조를 공급자(supplier)로 사용할 수 있다.
  */
 public class StaticMethodSingleton {
-    public static final StaticFinalSingleton INSTANCE = new StaticFinalSingleton();
+    public static final StaticMethodSingleton INSTANCE = new StaticMethodSingleton();
 
-    private StaticFinalSingleton() {}
+    private StaticMethodSingleton() {}
 
-    public static StaticFinalSingleton getInstance() {
+    public static StaticMethodSingleton getInstance() {
         return INSTANCE;
     }
 }
