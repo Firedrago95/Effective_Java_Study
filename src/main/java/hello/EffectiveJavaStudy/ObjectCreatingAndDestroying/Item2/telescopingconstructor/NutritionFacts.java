@@ -1,4 +1,4 @@
-package hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.Builder.telescopingconstructor;
+package hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.Item2.telescopingconstructor;
 
 /**
  * 점층적 생성자 패턴 - 필수 매개변수와 선택 매개변수의 경우의 수 마다 생성자 생성

@@ -1,4 +1,4 @@
-package hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.singleton;
+package hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.item3;
 
 /**
  * 정적 팩토리 메서드를 사용한 싱글턴

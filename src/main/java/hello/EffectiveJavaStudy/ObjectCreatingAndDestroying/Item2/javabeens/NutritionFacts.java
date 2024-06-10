@@ -1,4 +1,4 @@
-package hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.Builder.javabeens;
+package hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.Item2.javabeens;
 
 /**
  * 자바빈즈 패턴 - 객체가 완전히 생성되기전에는 일관성이 무너진 상태에 놓인다.

@@ -1,6 +1,5 @@
-package hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.UnnecessaryObjectInstantiation;
+package hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.item6;
 
-import java.time.LocalDateTime;
 import java.util.regex.Pattern;
 
 public class Examples {

@@ -1,6 +1,6 @@
-package hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.DependencyInjection.dependency;
+package hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.item5.dependency;
 
-import hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.DependencyInjection.Lexicon;
+import hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.item5.Lexicon;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.Builder.builder;
+package hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.Item2.builder;
 
 import java.util.Objects;
 

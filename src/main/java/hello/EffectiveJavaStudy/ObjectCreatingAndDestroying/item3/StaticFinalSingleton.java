@@ -1,4 +1,4 @@
-package hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.singleton;
+package hello.EffectiveJavaStudy.ObjectCreatingAndDestroying.item3;
 
 
 /**
