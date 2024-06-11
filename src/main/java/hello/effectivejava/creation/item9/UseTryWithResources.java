@@ -43,6 +43,8 @@ public class UseTryWithResources {
      * try-with-resources 적용
      * AutoCloseable을 구현한 자원만이 사용할 수 있다.
      * 짧고 읽기 수월하다. 문제를 진단하기도 좋다.
+     * 숨겨진 예외도 스택에 기록된다 (suppressed)
+     * 숨겨진 예외를 가져올수도 있다. Throwalbe 의 getSuppressed()
      */
     static String firstLineOfFile2(String path) throws IOException {
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
@@ -63,6 +65,7 @@ public class UseTryWithResources {
 
     /**
      * try-with-resources를 catch절과 함께 사용하는 모습
+     * 중첩 없이도 다수의 예외처리를 할 수 있다.
      */
     static String firstLineOfFile3(String path, String defaultVal) throws IOException {
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
