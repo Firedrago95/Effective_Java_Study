@@ -1,6 +1,6 @@
 package hello.effectivejava.objectmethods.item11;
 
-/
+
 public final class PhoneNumber {
 
     private final short areaCode, prefix, lineNum;
